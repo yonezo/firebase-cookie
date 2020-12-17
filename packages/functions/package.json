@@ -1,0 +1,27 @@
+{
+  "name": "@iframe/functions",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack --watch"
+  },
+  "dependencies": {
+    "@types/cookie": "^0.4.0",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/cors": "^2.8.9",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.3.0",
+    "firebase-functions": "^3.11.0",
+    "generate-json-webpack-plugin": "^1.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "engines": {
+    "node": "10"
+  }
+}

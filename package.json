@@ -1,0 +1,19 @@
+{
+  "name": "lerna-firebase",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "lerna run build",
+    "emulate": "firebase emulators:start --inspect-functions",
+    "start": "lerna run start --stream",
+    "predeploy": "yarn build",
+    "deploy": "firebase deploy"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "typescript": "^4.0.5"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
